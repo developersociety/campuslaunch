@@ -123,3 +123,19 @@ button {
     color: white;
     border: none;
 }
+
+@media all and (max-width: 680px) {
+    footer {
+        display: block;
+        padding: 2rem 1rem;
+    }
+
+    footer form {
+        margin: 3rem 0;
+    }
+
+    footer ul {
+        padding-left: 0;
+        margin-left: 0;
+    }
+}
